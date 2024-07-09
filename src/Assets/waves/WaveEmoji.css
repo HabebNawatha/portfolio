@@ -1,0 +1,20 @@
+.wave-emoji {
+  display: inline-block; /* Ensure inline-block so it can be inline with text */
+}
+
+.hand-emoji {
+  font-size: 3rem; /* Adjust font size */
+  animation: wave-animation 2s infinite;
+}
+
+@keyframes wave-animation {
+  0%, 60%, 100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(20deg);
+  }
+  50% {
+    transform: rotate(-20deg);
+  }
+}

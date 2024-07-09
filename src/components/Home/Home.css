@@ -1,0 +1,48 @@
+.home-section {
+    padding: 20px;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* Two columns of equal width */
+    gap: 20px;
+    /* Gap between grid items */
+}
+
+.waving-container {
+    display: flex;
+    /* Use flexbox for layout */
+    align-items: center;
+    /* Center align items vertically */
+}
+
+.waving-container span {
+    margin-right: 10px;
+    /* Adjust spacing between "Hi!" and the emoji */
+}
+
+.larger-text {
+    font-size: xx-large;
+}
+
+.right-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 110px; 
+  }
+
+.right-grid {
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    .home-grid {
+        grid-template-columns: 1fr;
+        /* Single column on smaller screens */
+    }
+}
