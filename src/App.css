@@ -8,17 +8,16 @@
 .main-content {
   flex: 1;
 }
-
 body {
   background-color: rgb(41, 21, 61); /* Your existing background color */
   color: whitesmoke; /* Text color */
-  
   background-image: url('./Assets/images/background.jpg'); /* Replace with your image path */
   background-size: cover; /* Cover the entire background */
   background-position: center; /* Center the background image */
   background-repeat: no-repeat; /* Do not repeat the background image */
+  min-height: 100vh; /* Ensure body fills the viewport height */
+  background-attachment: fixed; /* Keeps the background fixed while scrolling */
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
