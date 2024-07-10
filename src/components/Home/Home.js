@@ -3,6 +3,7 @@ import './Home.css';
 import WaveAnimation from '../../Assets/waves/WaveAnimation';
 import WaveEmoji from '../../Assets/waves/WaveEmoji';
 import Type from '../../Assets/typewriter/Type';
+import RightImage from '../../Assets/images/pic1.png';
 
 
 function Home() {
@@ -23,6 +24,7 @@ function Home() {
           <WaveAnimation />
         </div>
         <div className='right-grid'>
+          <img src={RightImage} alt="img" />
         </div>
       </div>
     </div>
