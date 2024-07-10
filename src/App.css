@@ -1,9 +1,17 @@
-body{
+/* App.css */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+}
+
+body {
   background-color: #282c34;
   color: #ffffff;
-}
-.App {
-  text-align: center;
 }
 
 .App-logo {
