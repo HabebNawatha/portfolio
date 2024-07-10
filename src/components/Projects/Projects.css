@@ -24,4 +24,12 @@
     gap: 20px;
     justify-content: center;
   }
-  
+  @media (max-width: 768px) {
+    .projects-section-intro h1 {
+        font-size: 2em; /* Decrease font size for smaller screens */
+    }
+
+    .projects-section-intro p {
+        font-size: 1em; /* Decrease font size for smaller screens */
+    }
+}

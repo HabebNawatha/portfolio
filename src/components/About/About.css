@@ -6,40 +6,42 @@
     margin-left: 10%;
     margin-right: 10%;
     color: #ffffff;
-  }
-  
-  .about-left-grid{
+}
+
+.about-left-grid {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 1.5em;
-  }
-  .about-me-section p{
+}
+
+.about-me-section p {
     font-size: 1.2em;
-  }
-  .about-me-section {
+}
+
+.about-me-section {
     text-align: center;
-    margin: 20px;
-  }
-  
-  .about-me-section h3 {
+    margin: 15px;
+}
+
+.about-me-section h3 {
     font-size: 2em;
-  }
-  
-  .name-span {
+}
+
+.name-span {
     color: rgb(82, 22, 138);
-  }
-  
-  .tech-stack-section {
+}
+
+.tech-stack-section {
     text-align: center;
     width: 100%;
 }
 
 .tech-stack-section h3 {
     font-size: 3em;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .tech-stack {
@@ -48,10 +50,29 @@
     justify-content: center;
     gap: 10px;
 }
-  
-  .about-right-grid img {
+
+.about-right-grid img {
     width: 100%;
-    max-width: 500px; /* Adjust the size as needed */
+    max-width: 500px;
+    /* Adjust the size as needed */
     height: auto;
     border-radius: 10px;
-  }
+}
+
+@media (max-width: 768px) {
+    .about-left-grid {
+        font-size: 1.2em; /* Decrease font size for smaller screens */
+    }
+
+    .about-me-section p {
+        font-size: 1em; /* Decrease font size for smaller screens */
+    }
+
+    .about-me-section h3 {
+        font-size: 1.5em; /* Decrease font size for smaller screens */
+    }
+
+    .tech-stack-section h3 {
+        font-size: 2em; /* Decrease font size for smaller screens */
+    }
+}

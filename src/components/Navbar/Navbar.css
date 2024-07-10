@@ -41,6 +41,8 @@
   text-decoration: none;
   padding: 10px;
   transition: color 0.3s ease, background-color 0.3s ease;
+  display: flex;
+  align-items: center; /* Align items vertically */
 }
 
 
@@ -104,7 +106,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    background-color: #333;
+    background-color:  rgba(10, 4, 22, 0.349);
     position: fixed;
     top: 0;
     right: -100%;

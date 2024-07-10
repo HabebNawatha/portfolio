@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css'; // Import CSS file for styling
 import WaveAnimation from '../../Assets/waves/WaveAnimation';
+import { CiUser,CiHome } from "react-icons/ci";
+import { PiProjectorScreenChartThin } from "react-icons/pi";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,13 +20,13 @@ function Navbar() {
       <div className="navbar-links">
         <ul className={`navbar-nav ${isOpen ? 'active' : ''}`}>
           <li className="nav-item">
-            <Link to="/" className="nav-link" onClick={toggleNavbar}>Home</Link>
+            <Link to="/" className="nav-link" onClick={toggleNavbar}><CiHome/>Home</Link>
           </li>
           <li className="nav-item">
-            <Link to="/project" className="nav-link" onClick={toggleNavbar}>Projects</Link>
+            <Link to="/project" className="nav-link" onClick={toggleNavbar}><PiProjectorScreenChartThin/>Projects</Link>
           </li>
           <li className="nav-item">
-            <Link to="/about" className="nav-link" onClick={toggleNavbar}>About</Link>
+            <Link to="/about" className="nav-link" onClick={toggleNavbar}><CiUser/>About</Link>
           </li>
           <li className="nav-item">
             <Link to="/contact" className="nav-link" onClick={toggleNavbar}>Contact</Link>

@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     margin: 15px; /* Increase margin for more separation */
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease; 
     border: 2px solid #ffffff; /* Add border with white color */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
 }
@@ -18,4 +18,15 @@
 .tech-stack-card-icon {
     font-size: 60px; /* Adjusted font size for bigger icons */
     color: white;
+}
+
+@media (max-width: 768px) {
+    .tech-stack-card {
+        padding: 15px; /* Decrease padding for smaller cards */
+        margin: 5px; /* Decrease margin for smaller separation */
+    }
+
+    .tech-stack-card-icon {
+        font-size: 35px; /* Decrease font size for smaller icons */
+    }
 }
