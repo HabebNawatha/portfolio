@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css'; // Import CSS file for styling
+import WaveAnimation from '../../Assets/waves/WaveAnimation';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +13,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <Link to="/">Logo</Link>
+        <Link to="/" className='navbar-logo-link'><WaveAnimation/></Link>
       </div>
       <div className="navbar-links">
         <ul className={`navbar-nav ${isOpen ? 'active' : ''}`}>

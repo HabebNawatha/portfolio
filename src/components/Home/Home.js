@@ -2,21 +2,27 @@ import React from 'react';
 import './Home.css';
 import WaveAnimation from '../../Assets/waves/WaveAnimation';
 import WaveEmoji from '../../Assets/waves/WaveEmoji';
+import Type from '../../Assets/typewriter/Type';
+
 
 function Home() {
   return (
     <div className='home-section'>
       <div className='home-grid'>
         <div className='left-grid'>
-          
+          <div className='waving-container'>
+            <span className='larger-text'>Hi There!</span><WaveEmoji />
+          </div>
+          <div className='name-div'>
+            <span>I'M </span>
+            <span className='name-span'>HABEB NAWATHA</span>
+          </div>
+          <div className='typewriter-div'>
+            <Type />
+          </div>
+          <WaveAnimation />
         </div>
         <div className='right-grid'>
-            <div className='waving-container'>
-            <span className='larger-text'>Hi!</span><WaveEmoji/>
-       </div>
-          <h2>I'm Habeb Nawatha</h2>
-          <p>Welcome to my Portfolio!</p>
-          <WaveAnimation/>
         </div>
       </div>
     </div>
