@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar/Navbar.js";
 import Footer from "./components/Footer/Footer.js";
 import Home from "./components/Home/Home";
 import Projects from "./components/Projects/Projects";
+import About from "./components/About/About.js";
 import ScrollToTop from "./components/ScrollToTop";
 
 import {BrowserRouter as Router,Route,Routes,Navigate} from "react-router-dom";
@@ -29,8 +30,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/project" element={<Projects />} />
-            {/* <Route path="/about" element={<About />} />
-            <Route path="/resume" element={<Resume />} /> */}
+            <Route path="/about" element={<About />} />
+            {/* <Route path="/resume" element={<Resume />} /> */}
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
         </div>

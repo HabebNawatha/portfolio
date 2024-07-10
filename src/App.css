@@ -10,8 +10,12 @@
 }
 
 body {
-  background-color: #282c34;
-  color: #ffffff;
+  background-color: rgb(41, 21, 61); /* Your existing background color */
+  color: #ffffff; /* Text color */
+  background-image: url('./Assets/images/background.jpg'); /* Replace with your image path */
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Do not repeat the background image */
 }
 
 .App-logo {
