@@ -1,39 +1,57 @@
 .about-main-container {
-    position: relative;
-    z-index: -1;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-}
-
-.about-left-grid {
-    margin-left: 15%;
-    margin-top: 4%;
-    flex: 1;
-    justify-content: space-between;
     display: flex;
     flex-direction: column;
-}
-.about-me-p{
-    font-size: larger;
+    align-items: center;
+    padding: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #ffffff;
+  }
+  
+  .about-left-grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+  }
+  .about-me-section p{
+    font-size: 1.2em;
+  }
+  .about-me-section {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .about-me-section h3 {
+    font-size: 2em;
+  }
+  
+  .name-span {
+    color: rgb(82, 22, 138);
+  }
+  
+  .tech-stack-section {
+    text-align: center;
+    width: 100%;
 }
 
-.about-right-grid {
-    flex: 1;
+.tech-stack-section h3 {
+    font-size: 3em;
+    margin-bottom: 20px;
 }
 
-.name-span {
-    color: blueviolet;
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
 }
-
-.about-me-section {
-    flex: 1;
-}
-
-.tech-stack-section {
-    flex: 1;
-    margin-top: 5%;
-}
-.certificates-stack-section{
-    margin-top: 5%;
-}
+  
+  .about-right-grid img {
+    width: 100%;
+    max-width: 500px; /* Adjust the size as needed */
+    height: auto;
+    border-radius: 10px;
+  }

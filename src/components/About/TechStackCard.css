@@ -1,0 +1,21 @@
+.tech-stack-card {
+    background: rgba(255, 255, 255, 0.156);
+    border-radius: 10px;
+    padding: 30px; /* Increase padding for more space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px; /* Increase margin for more separation */
+    transition: transform 0.3s ease;
+    border: 2px solid #ffffff; /* Add border with white color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+
+.tech-stack-card:hover {
+    transform: scale(1.1);
+}
+
+.tech-stack-card-icon {
+    font-size: 60px; /* Adjusted font size for bigger icons */
+    color: white;
+}
