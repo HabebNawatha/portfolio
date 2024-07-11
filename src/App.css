@@ -10,7 +10,7 @@
 }
 body {
   background-color: rgb(41, 21, 61); /* Your existing background color */
-  color: whitesmoke; /* Text color */
+  color: #C5C6C7; /* Text color */
   background-image: url('./Assets/images/background.jpg'); /* Replace with your image path */
   background-size: cover; /* Cover the entire background */
   background-position: center; /* Center the background image */
