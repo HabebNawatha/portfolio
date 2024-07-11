@@ -1,0 +1,14 @@
+.resume-donwload-btn a {
+    background-color: #1f283370;
+    color: #66FCF1;
+    padding: 10px 20px;
+    border: 2px solid #66FCF1;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+}
+.btn:hover {
+    transform: scale(1.1);
+}
+
