@@ -24,7 +24,7 @@ function Resume() {
       <ResumeBtn/>
       <div className="resume">
         <Document file={resume} >
-          <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.8}  renderTextLayer={false}/>
+          <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6}  renderTextLayer={false}/>
         </Document>
       </div>
     </div>
