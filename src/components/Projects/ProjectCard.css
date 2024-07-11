@@ -18,11 +18,17 @@
   }
   
   .project-card a {
-    color: #66FCF1;
-    text-decoration: none;
+  color: #66FCF1;
+  text-decoration: none;
+   border-radius: 10px;
+   background-color: #1f2833c2;
+   padding: 10px;
+   display: flex;
+   width: fit-content;
+   align-items: center;
   }
   
   .project-card a:hover {
-    text-decoration: underline;
+    transform: scale(1.1);
   }
   
