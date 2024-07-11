@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import './Navbar.css'; // Import CSS file for styling
 import WaveAnimation from '../../Assets/waves/WaveAnimation';
 import { CiUser,CiHome } from "react-icons/ci";
+import { BiMessageRoundedDetail } from "react-icons/bi";
+
 import { PiProjectorScreenChartThin } from "react-icons/pi";
 
 function Navbar() {
@@ -32,7 +34,7 @@ function Navbar() {
             <Link to="/resume" className="nav-link" onClick={toggleNavbar}><CiUser/>Resume</Link>
           </li>
           <li className="nav-item">
-            <Link to="/contact" className="nav-link" onClick={toggleNavbar}>Contact</Link>
+            <Link to="/contact" className="nav-link" onClick={toggleNavbar}><BiMessageRoundedDetail/>Contact</Link>
           </li>
         </ul>
         <div className="hamburger-menu" onClick={toggleNavbar}>
