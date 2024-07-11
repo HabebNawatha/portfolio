@@ -9,6 +9,7 @@ import Projects from "./components/Projects/Projects";
 import About from "./components/About/About.js";
 import ScrollToTop from "./components/ScrollToTop";
 import Resume from "./components/Resume/Resume.js";
+import Contact from "./components/Contact/Contact.js";
 
 import {BrowserRouter as Router,Route,Routes,Navigate} from "react-router-dom";
 
@@ -33,6 +34,7 @@ function App() {
             <Route path="/project" element={<Projects />} />
             <Route path="/about" element={<About />} />
             <Route path="/resume" element={<Resume />} />
+            <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
         </div>

@@ -9,7 +9,6 @@
   flex: 1;
 }
 body {
-  background-color: rgb(41, 21, 61); /* Your existing background color */
   color: #C5C6C7; /* Text color */
   background-image: url('./Assets/images/background.jpg'); /* Replace with your image path */
   background-size: cover; /* Cover the entire background */
@@ -41,7 +40,7 @@ body {
 }
 
 .App-link {
-  color: #61dafb;
+  color: #66FCF1;
 }
 
 @keyframes App-logo-spin {
