@@ -7,7 +7,7 @@
     align-items: center;
     margin: 15px; /* Increase margin for more separation */
     transition: transform 0.3s ease; 
-    border: 2px solid #ffffff; /* Add border with white color */
+    border: 2px solid #C5C6C7; /* Add border with white color */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
 }
 
@@ -17,7 +17,7 @@
 
 .tech-stack-card-icon {
     font-size: 60px; /* Adjusted font size for bigger icons */
-    color: white;
+    color: #C5C6C7;
 }
 
 @media (max-width: 768px) {
