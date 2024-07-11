@@ -1,6 +1,5 @@
 .home-section {
     position: relative;
-    z-index: -1;
     background-position: top center;
     background-repeat: no-repeat;
     padding-bottom: 30px;
@@ -24,7 +23,7 @@
 
 .larger-text,
 .name-div {
-    font-size: 1.5em;
+    font-size: 3em;
 }
 
 .name-span {
@@ -32,7 +31,7 @@
 }
 
 .quote-div {
-    font-size: 24px;
+    font-size: 1.2em;
     display: flex;
     align-items: start;
     font-style: oblique;
@@ -52,17 +51,16 @@
 }
 
 .Typewriter__wrapper {
-    font-size: 2em;
+    font-size: 3.5em;
     color: #66FCF1;
     font-weight: 600;
 }
 
 .Typewriter__cursor {
-    font-size: 2em;
+    font-size: 3.5em;
 }
 
 .left-grid {
-    font-size: 2em;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -94,18 +92,14 @@
     .larger-text,
     .name-div {
         font-size: 1.2em;
-        /* Adjust font size for smaller screens */
     }
 
     .Typewriter__wrapper {
         font-size: 1.5em;
-        /* Adjust typewriter font size for smaller screens */
     }
 
     .left-grid {
         font-size: 1.5em;
-        /* Adjust left grid font size for smaller screens */
         padding-left: 10%;
-        /* Adjust padding for smaller screens */
     }
 }
