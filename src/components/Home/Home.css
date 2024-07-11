@@ -28,28 +28,27 @@
 }
 
 .name-span {
-    color: blueviolet;
+    color: #66FCF1;
 }
-.quote-div{
+
+.quote-div {
     font-size: 24px;
     display: flex;
     align-items: center;
     font-style: oblique;
-    color: whitesmoke;
 }
 
 
 .Typewriter__wrapper {
     font-size: 2em;
-    color: rgb(82, 22, 138);
+    color: #66FCF1;
     font-weight: 600;
 }
 
 .Typewriter__cursor {
     font-size: 2em;
-    color: blueviolet;
 }
- 
+
 .left-grid {
     font-size: 2em;
     display: flex;
@@ -82,15 +81,19 @@
 
     .larger-text,
     .name-div {
-        font-size: 1.2em; /* Adjust font size for smaller screens */
+        font-size: 1.2em;
+        /* Adjust font size for smaller screens */
     }
 
     .Typewriter__wrapper {
-        font-size: 1.5em; /* Adjust typewriter font size for smaller screens */
+        font-size: 1.5em;
+        /* Adjust typewriter font size for smaller screens */
     }
 
     .left-grid {
-        font-size: 1.5em; /* Adjust left grid font size for smaller screens */
-        padding-left: 10%; /* Adjust padding for smaller screens */
+        font-size: 1.5em;
+        /* Adjust left grid font size for smaller screens */
+        padding-left: 10%;
+        /* Adjust padding for smaller screens */
     }
 }

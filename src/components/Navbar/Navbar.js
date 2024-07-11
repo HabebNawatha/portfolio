@@ -29,6 +29,9 @@ function Navbar() {
             <Link to="/about" className="nav-link" onClick={toggleNavbar}><CiUser/>About</Link>
           </li>
           <li className="nav-item">
+            <Link to="/resume" className="nav-link" onClick={toggleNavbar}><CiUser/>Resume</Link>
+          </li>
+          <li className="nav-item">
             <Link to="/contact" className="nav-link" onClick={toggleNavbar}>Contact</Link>
           </li>
         </ul>

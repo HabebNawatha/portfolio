@@ -5,7 +5,6 @@
     padding: 20px;
     margin-left: 10%;
     margin-right: 10%;
-    color: #ffffff;
 }
 
 .about-left-grid {
@@ -31,7 +30,7 @@
 }
 
 .name-span {
-    color: rgb(82, 22, 138);
+    color: #66FCF1;
 }
 
 .tech-stack-section {

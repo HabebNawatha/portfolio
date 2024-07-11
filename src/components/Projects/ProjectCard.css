@@ -1,11 +1,10 @@
 .project-card {
-    background-color: #282c34e7;
+    background-color: #1f283370;
     border-radius: 10px;
     padding: 20px;
     width: 500px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.2s;
-    color: white;
   }
   
   .project-card:hover {
@@ -14,12 +13,12 @@
   
   .project-card h3 {
     text-align: center;
-    color: blueviolet;
+    color: #66FCF1;
     margin-top: 0;
   }
   
   .project-card a {
-    color: #8561fb;
+    color: #66FCF1;
     text-decoration: none;
   }
   
