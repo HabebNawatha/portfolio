@@ -1,0 +1,50 @@
+/* Resume Styles */
+.resume-section {
+    position: relative;
+    padding-top: 110px;
+    padding-bottom: 30px;
+    background-color: var(--section-background-color);
+    color: rgb(27, 9, 9);
+    min-height: 100vh; /* Ensure full viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .download-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .download-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .resume {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  @media (max-width: 767px) {
+    .resume-section {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  
+    .download-button {
+      width: 100%;
+      max-width: 250px;
+    }
+  }
+  
