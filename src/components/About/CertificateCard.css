@@ -1,0 +1,39 @@
+.certificate-card {
+    background-color: #1f283370;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    transition: transform 0.3s ease;
+    border: 2px solid #C5C6C7;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.certificate-card:hover {
+    transform: scale(1.1);
+}
+
+.certificate-card-link {
+    font-size: 1.2em;
+    color: #C5C6C7;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none; /* Remove underline */
+}
+
+.certificate-card-link:hover {
+    color: #fff; /* Optional: Change color on hover */
+}
+
+@media (max-width: 768px) {
+    .certificate-card {
+        padding: 15px;
+        margin: 5px;
+    }
+
+    .certificate-card-link {
+        font-size: 1em;
+    }
+}

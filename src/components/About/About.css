@@ -37,7 +37,14 @@
     text-align: center;
     width: 100%;
 }
-
+.certificates-stack-section{
+    text-align: center;
+    width: 100%;
+}
+.certificates-stack-section h3{
+    font-size: 3em;
+    margin-bottom: 10px;
+}
 .tech-stack-section h3 {
     font-size: 3em;
     margin-bottom: 10px;
