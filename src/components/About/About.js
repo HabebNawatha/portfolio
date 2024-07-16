@@ -1,6 +1,5 @@
 import React from 'react';
-import './About.css'; // Make sure to create and import the CSS file for styling
-import WaveEmoji from '../../Assets/waves/WaveEmoji';
+import './About.css';
 import TechStackCard from './TechStackCard';
 import CertificateCard from './CertificateCard';
 import {
@@ -57,7 +56,7 @@ function About() {
                     <h3>Hi, I'm <span className='name-span'>Habeb Nawatha</span>!</h3>
                     <p>
                         <span>I'm a passionate developer dedicated to creating innovative and impactful software solutions.</span>
-                        <span> Holding a <span className='name-span'>BSc in Information Systems </span>from the University of Haifa, <span className='name-span'> majoring software development</span>,</span>
+                        <span> Holding a <span className='name-span'>BSc in Information Systems </span>from the University of Haifa, <span className='name-span'> majored in software development</span>,</span>
                         <span> I'm always <span className='name-span'>eager</span> to explore and master new technologies.</span>
                     </p>
                 </div>
