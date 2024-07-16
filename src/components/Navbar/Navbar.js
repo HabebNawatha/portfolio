@@ -36,7 +36,7 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <Link to="/resume" className="nav-link" onClick={toggleNavbar}><CiFileOn /> Resume</Link>
-          </li>
+          </li> 
           <li className="nav-item">
             <Link to="/contact" className="nav-link" onClick={toggleNavbar}><BiMessageRoundedDetail /> Contact</Link>
           </li>
