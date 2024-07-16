@@ -1,5 +1,4 @@
 import React , {useState,useEffect} from "react";
-import logo from './logo.svg';
 import './App.css';
 import Preloader from "./components/Pre";
 import Navbar from "./components/Navbar/Navbar.js";
@@ -24,7 +23,7 @@ function App() {
   },[]);
   return (
     <Router>
-      {/* <Preloader load={load} /> */}
+      <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
         <ScrollToTop />

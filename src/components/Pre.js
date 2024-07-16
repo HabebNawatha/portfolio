@@ -1,11 +1,5 @@
-import React from 'react';
-
-function Pre({ load }) {
-  return (
-    <div className={`preloader ${load ? 'visible' : 'hidden'}`}>
-      Loading...
-    </div>
-  );
+import React from "react";
+function Pre(props) {
+  return <div id={props.load ? "preloader" : "preloader-none"}></div>;
 }
-
 export default Pre;
