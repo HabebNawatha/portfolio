@@ -19,7 +19,9 @@ import {
     SiTypescript,
     SiC,
     SiCsharp,
-    SiFirebase
+    SiFirebase,
+    SiKubernetes,
+    SiSpringboot,
 } from "react-icons/si";
 
 
@@ -37,6 +39,8 @@ function About() {
         { Icon: DiMysql, alt: "MySQL" },
         { Icon: DiReact, alt: "React" },
         { Icon: DiNodejs, alt: "Node.js" },
+        { Icon: SiSpringboot, alt: "Spring Boot" },
+        { Icon: SiKubernetes, alt: "Kubernetes" },
         { Icon: DiMongodb, alt: "MongoDB" },
         { Icon: SiFirebase, alt: "Firebase" },
         { Icon: DiDocker, alt: "Docker" },
@@ -44,6 +48,7 @@ function About() {
     ];
 
     const certificates = [
+        { title: "Udemy - Master Microservices with Spring Boot, Docker and Kubernetes", link: "https://ude.my/UC-b24a18b6-aaf9-416e-9210-23e7c66494ca"}, 
         { title: "TryHackMe - Security Engineer", link: "https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-W0VXSK0XAV.png" },
         { title: "TryHackMe - Jr Penetration Tester", link: "https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-3GHITN0FNN.png" },
         { title: "TryHackMe - Introduction to Cyber Security", link: "https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-AUWXJTJFRI.png" },
